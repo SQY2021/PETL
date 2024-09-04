@@ -168,6 +168,7 @@ We first define the essence of the problem. The DAB converter’s modeling proce
 [^back to top](#top)
 
 ## Methodology
+> [!Important]
 The proposed PhyRes-LSTM is a novel PINN/PGML model designed to efficiently and accurately solve general nonlinear partial differential equations (PDEs) for the temporal behavior of power converters. Even in extreme low-data regime (data-light implementation), PhyRes-LSTM still demonstrates strong learning and generalization capabilities while strictly adhering to the integrated physical principles, addressing the challenges in the existing data-driven and state-of-the-art PINN methods in the power electronics field.
 
 ![Network structure visualization](https://github.com/user-attachments/assets/c302a36c-2de4-4798-9e85-267972158bc6)
@@ -189,12 +190,13 @@ With the hierarchical ResNet-LSTM network and knowledge from prior information, 
 [^back to top](#top)
 
 ## Acknowledgement
-
+> [!Tip]
 This project is supported by the `National Natural Science Foundation of China under Grant 52007196`. At the same time, thank you all for your attention to this work! 
 
 [^back to top](#top)
 
 ## Contact
+> [!Note]
 If you have any questions, feel free to contact Qianyi Shang [![image](https://github.com/user-attachments/assets/cc7d1dc3-951f-4635-9dd5-e2799c14f735)](https://orcid.org/0000-0002-4568-8895) through Email (21000504@nue.edu.cn) or Github issues. Pull requests are highly welcomed!
 
 [^back to top](#top)
