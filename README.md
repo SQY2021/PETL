@@ -7,6 +7,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/8msiklxfbhlnsmxp/branch/master?svg=true)](https://ci.appveyor.com/project/TadasBaltrusaitis/openface/branch/master)
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
+> [!Tip]
 This is a GitHub repository for the **`Physics-Guided Hierarchical Res-LSTM Framework (PhyRes-LSTM)`**.
 
 ## Introduction 
@@ -20,7 +21,7 @@ Fig. 1. Diagram of a hierarchical microgrid with power converters [[2]](https://
 Generally, physical modeling relies on a knowledge of the values of the dc–dc converter parameters, both the passive elements and the control circuit. In addition, an accurate model should be able to reproduce ripples in currents and voltages, transients caused by switching on and off operations, etc., which is difficult to generate with physical-based modeling methods [[3]](https://ieeexplore.ieee.org/document/9492829). Over the past few years, classical machine learning (ML) and deep learning (DL) algorithms have been used for the data-driven modeling of power converters with simple topologies. It is worth noting that this modeling approach falls under the task of time series forecasting, so models that are related to time series and their theoretical analysis are also applicable in this situation. However, conventional time-series data-driven approaches for power converter modeling are **data-intensive, uninterpretable, and lack out-of-domain extrapolation capability**. Recent physics-informed modeling methods combine physics into data-driven models using loss functions, but they inherently suffer from `physical inconsistency, lower modeling accuracy, and require resource-intensive retraining for new case predictions.`
 
 [^back to top](#top)
-
+> [!Important]
 In this paper, we propose a **`physics-guided hierarchical network with the deep residual network (ResNet) and long short-term memory (LSTM) for the data-driven modeling of power converters`**, which can bridge the connection between knowledge-based model and data-driven model for enhancing converter modeling and industrial process modeling. The main contributions of this work can be summarized as follow.
 
 :triangular_flag_on_post:**(1)**  [A novel physics-guided framework based on DL is proposed](https://github.com/sub-p/PGRL), `improving the performance of converter modeling and industrial process modeling`.
@@ -59,7 +60,8 @@ We will continuously add PINN/PGML models applied in the field of power electron
 [^back to top](#top)
 
 ## Reproducibility
-1. Install the requirement file. For convenience, execute the following command.
+
+> 1. **Install the requirement file**. For convenience, execute the following command.
 
 ```
 pip install -r requirements.txt
@@ -67,7 +69,7 @@ pip install -r requirements.txt
 
 [^back to top](#top)
 
-2. **Jupyter Notebook Examples** : We provide Jupyter Notebook to help reproduce and customize our repo, which includes
+> 2. **Jupyter Notebook Examples** : We provide Jupyter Notebook to help reproduce and customize our repo, which includes
 
 ```
 1. PhyRes-LSTM-main.ipynb
@@ -79,10 +81,11 @@ pip install -r requirements.txt
 
 [^back to top](#top)
 
-3. **Usage**:
-1. Download the repository
+> 3. **Usage**:
 
-2. Train the model.
+3.1. Download the repository
+
+3.2. Train the model.
 
 ```
 run main.py
